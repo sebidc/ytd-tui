@@ -1,7 +1,7 @@
 # ytd-tui
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Release](https://img.shields.io/github/v/release/sebidc/ytd-tui?display_name=tag)](https://github.com/sebidc/ytd-tui/releases)
+[![Release](https://img.shields.io/github/v/release/sebidc/ytd-tui?display_name=tag)](https://github.com/sebidc/ytd-tui/releases/)
 [![Platform](https://img.shields.io/badge/platform-macOS%20Terminal-111827)](https://github.com/sebidc/ytd-tui)
 [![Homebrew Tap](https://img.shields.io/badge/homebrew-sebidc%2Ftap-fbbf24)](https://github.com/sebidc/homebrew-tap)
 
