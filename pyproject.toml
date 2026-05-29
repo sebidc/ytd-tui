@@ -1,0 +1,51 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ytd-tui"
+version = "1.0.0"
+description = "A keyboard-first terminal UI for yt-dlp with platform search, queueing, and format controls."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [
+  { name = "sebidc" }
+]
+keywords = ["yt-dlp", "tui", "terminal", "video", "download"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Environment :: Console :: Curses",
+  "Intended Audience :: End Users/Desktop",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: MacOS",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Topic :: Multimedia :: Video",
+  "Topic :: Utilities",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/sebidc/ytd-tui"
+Repository = "https://github.com/sebidc/ytd-tui"
+Issues = "https://github.com/sebidc/ytd-tui/issues"
+
+[project.scripts]
+ytd-tui = "ytdlp_tui.__main__:main"
+yt-dlp-tui = "ytdlp_tui.__main__:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ytdlp_tui"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+  "/README.md",
+  "/LICENSE",
+  "/CONTRIBUTING.md",
+  "/SECURITY.md",
+  "/src",
+  "/tests",
+  "/ytd-tui",
+  "/yt-dlp-tui.py",
+]
