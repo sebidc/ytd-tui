@@ -9,6 +9,7 @@
 
 It is designed in the same spirit as `check-installs-tui`, Basalt, `btop`, and `bpytop`: full-screen, keyboard-first, dense, and friendly enough that you do not have to memorize `yt-dlp` flags to get work done.
 
+
 ## What's New in v1.0.0
 
 This first stable release ships the full `ytd-tui` terminal workflow:
