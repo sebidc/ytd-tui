@@ -1,3 +1,6 @@
+<img width="967" height="597" alt="image" src="https://github.com/user-attachments/assets/5e6e9827-127c-43b3-80ce-e22ca2bc546e" />
+
+
 # ytd-tui
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
@@ -13,6 +16,9 @@ It is designed in the same spirit as `check-installs-tui`, Basalt, `btop`, and `
 ## What's New in v1.0.0
 
 This first stable release ships the full `ytd-tui` terminal workflow:
+
+<img width="1822" height="1082" alt="image" src="https://github.com/user-attachments/assets/64b14b9c-0a54-41b9-9dad-a120b1486d51" />
+
 
 - Platform picker before the dashboard, with major platforms and a searchable niche-platform list from the `yt-dlp` supported sites database.
 - Dynamic platform theming across the dashboard, loading screens, popups, and focus states.
