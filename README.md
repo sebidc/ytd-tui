@@ -121,4 +121,5 @@ The interactive flow is:
 
 - [Contributing](./CONTRIBUTING.md)
 - [Security](./SECURITY.md)
+- [Supported Sites](./supportedsites.md)
 - [MIT License](./LICENSE)
